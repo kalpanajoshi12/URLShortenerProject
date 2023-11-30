@@ -1,0 +1,39 @@
+1. Introduction:
+The URL Link Shortener project aims to create a simple yet effective tool for shortening long URLs.
+The project uses Java for the backend logic and a Swing-based graphical user interface (GUI) for user interaction.
+
+2. Features:
+URL Shortening: Users can input a long URL, and the application generates a shortened version using a unique code.
+URL Expansion: Users can input a short URL, and the application provides the original long URL.
+GUI Interface: The project includes a graphical user interface built with Java Swing for a user-friendly experience.
+
+3. Technologies Used:
+Programming Language: Java
+GUI Framework: Java Swing
+Data Storage: In-memory data structures (can be extended to a database in a real-world scenario)
+
+4. Project Components:
+URLShortener.java: The main class containing the logic for URL shortening and expanding.
+URLShortenerGUI.java: The method responsible for the graphical user interface using Java Swing.
+ShortURLGenerator.java: A ShortURLGenerator for generating unique short URLs.
+
+5. Workflow:
+Users interact with the GUI by entering long URLs for shortening or short URLs for expansion.
+The backend logic generates and manages the short URLs.
+Shortened URLs are displayed to users for easy sharing.
+
+6. Code Overview:
+The project uses in-memory maps to store the mappings between short and long URLs.
+URL shortening involves generating a random short code and updating the mapping.
+URL expansion involves looking up the short code to find the corresponding long URL.
+
+7. Future Improvements:
+Database Integration: Implementing a database for persistent storage of URL mappings.
+Enhanced Security: Using a more sophisticated algorithm for generating short URLs.
+Error Handling: Adding comprehensive error handling for user input and system failures.
+User Authentication: Implementing user accounts for better tracking and management of URLs.
+
+8. Conclusion:
+The URL Link Shortener project provides a foundation for a simple URL shortening service.
+It serves as an educational example that can be extended and enhanced for real-world use. 
+The GUI adds a user-friendly aspect to the project, making it accessible to a wide audience.
